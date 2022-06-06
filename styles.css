@@ -1,0 +1,36 @@
+
+
+@media (min-width: 900px) {
+
+    #main-doc{
+        display: grid;
+        grid-template-areas: 
+        'nav content';
+     }
+     
+     #navbar{
+     grid-area: nav;
+     
+     }
+     #main-section{
+         grid-area: content;
+      }
+}
+
+#navbar a{
+   text-decoration: none;
+   font-size: 20px;
+   
+}
+#navbar li{
+    list-style: none;
+    margin: 50px;
+    
+
+}
+
+#navbar header{
+    text-align: center;
+    font-size: 25px;
+    
+}
